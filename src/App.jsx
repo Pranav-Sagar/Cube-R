@@ -13,8 +13,6 @@ function App() {
       }}
     >
       <WebGLShader />
-
-      {/* Center Box */}
       <div
         style={{
           position: "absolute",
@@ -24,7 +22,6 @@ function App() {
           textAlign: "center",
         }}
       >
-        {/* Glass Panel */}
         <div
           style={{
             padding: "80px 120px",
@@ -35,7 +32,6 @@ function App() {
             borderRadius: "8px",
           }}
         >
-          {/* Inner Border */}
           <div
             style={{
               position: "absolute",
@@ -47,6 +43,17 @@ function App() {
               pointerEvents: "none",
             }}
           />
+          <div
+            style={{
+              fontSize: "20px",
+              fontWeight: "800",
+              letterSpacing: "3px",
+              marginBottom: "10px",
+              opacity: 0.8,
+            }}
+          >
+            CUBE-R
+          </div>
 
           <h1
             style={{
@@ -78,21 +85,6 @@ function App() {
           >
             ● Launching Soon
           </div>
-
-          <button
-            style={{
-              marginTop: "30px",
-              padding: "12px 30px",
-              borderRadius: "30px",
-              border: "1px solid rgba(255,255,255,0.3)",
-              background: "rgba(255,255,255,0.05)",
-              color: "white",
-              cursor: "pointer",
-              backdropFilter: "blur(10px)",
-            }}
-          >
-            Notify Me
-          </button>
         </div>
       </div>
     </div>
